@@ -59,6 +59,8 @@ supported_elements = {
     "DPC L2": FIAT.DPC,
     "BDMCE": FIAT.BrezziDouglasMariniCubeEdge,
     "BDMCF": FIAT.BrezziDouglasMariniCubeFace,
+    "TBDMCE": FIAT.TrimmedBrezziDouglasMariniCubeEdge,
+    "TBDMCF": FIAT.TrimmedBrezziDouglasMariniCubeFace,
     "S": FIAT.Serendipity,
     # These require special treatment below
     "DQ": None,
