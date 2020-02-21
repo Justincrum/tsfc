@@ -63,6 +63,8 @@ supported_elements = {
     "DPC L2": finat.DPC,
     "BDMCE": finat.BrezziDouglasMariniCubeEdge,
     "BDMCF": finat.BrezziDouglasMariniCubeFace,
+    "TBDMCE": finat.TrimmedBrezziDouglasMariniCubeEdge,
+    "TBDMCF": finat.TrimmedBrezziDouglasMariniCubeFace,
     "S": finat.Serendipity,
     "Real": finat.DiscontinuousLagrange,
     # These require special treatment below
